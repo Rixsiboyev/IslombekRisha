@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: rgb(7, 7, 7);
+    color: #fff;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.name {
+    background: transparent;
+    border-bottom: 2px solid blue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 24px;
+    color: #fff;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    margin-top: 46px;
+
+}
+
+button {
+    width: 100%;
+    background: rgb(6, 74, 151);
+    line-height: 30px;
+    border: none;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    margin-top: 36px;
+    color: #fff;
+}
+
+.header-form {
+    position: absolute;
+    top: 26%;
+    left: 40%;
+    z-index: 0;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box label {
+    font-size: 24px;
+    margin-top: 12px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 24px;
+}
+
+select {
+    width: 100%;
+    background: transparent;
+    border-bottom: 2px solid blue;
+    height: 36px;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 12px;
+}
+
+select option {
+    background: #000;
+
+}
+
+.hide-box {
+    background: #000;
+    border: 1px solid #fff;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 40%;
+    left: 40.2%;
+    z-index: 100;
+    flex-direction: column;
+}
+
+.hide-box h1 {
+    font-size: 24px;
+}
+
+.hide_block {
+    background: rgba(0, 0, 0, 0.719);
+    width: 100%;
+    height: 100vh;
+    z-index: 100000000000 !important;
+    position: absolute;
+
+}
+
+form .h1 {
+    margin-top: 36px;
+    font-size: 24px;
+    text-align: start;
+}
+
+.fa-hand-point-left {
+    font-size: 36px;
+    color: #fff;
+    margin-top: 18px;
+}
+
+@media(max-width:1309px) {
+    .header-form {
+        left: 38%;
+    }
+}
+
+@media(max-width:1159px) {
+    .header-form {
+        left: 36%;
+    }
+}
+
+@media(max-width:1087px) {
+    .hide-box {
+        left: 36.2%;
+    }
+}
+
+@media(max-width:991px) {
+    .header-form {
+        top: 21%;
+        left: 33%;
+    }
+    .hide-box {
+        left: 33.2%;
+    }
+}
+
+@media(max-width:848px) {
+    .header-form {
+        left: 31%;
+    }.hide-box {
+        left: 29.2%;
+    }
+}
+
+@media(max-width:734px) {
+    .header-form {
+        left: 28%;
+    }
+}
+@media(max-width:679px){
+    .hide-box {
+        left: 26.2%;
+    }
+}
+@media(max-width:600px) {
+    .header-form {
+        left: 22%;
+    }
+}
+@media(max-width:540px){
+    .hide-box {
+        left: 22.2%;
+    }
+}
+@media(max-width:512px) {
+    .header-form {
+        left: 19%;
+    }
+}
+@media(max-width:497px){
+    .hide-box {
+        left: 18.2%;
+    }
+}
+@media(max-width:454px){
+    .hide-box {
+        left: 14.2%;
+    }
+}
+@media(max-width:474px) {
+    .header-form {
+        left: 17%;
+    }
+}
+
+@media(max-width:450px) {
+    .header-form {
+        left: 14%;
+    }
+}
+
+@media(max-width:432px) {
+    .header-form {
+        left: 13%;
+    }
+}
+
+@media(max-width:432px) {
+    .header-form {
+        left: 11%;
+    }
+}
+
+@media(max-width:488px) {
+    .header-form {
+        left: 10%;
+    }
+}
+@media(max-width:415px){
+    .hide-box {
+        left: 12.2%;
+    }
+}
+@media(max-width:395px){
+    .hide-box {
+        left: 8.2%;
+    }
+}
+@media(max-width:374px) {
+    .header-form {
+        left: 8%;
+    }
+}
+
+@media(max-width:360px) {
+    .header-form {
+        left: 7%;
+    }
+}
+
+@media(max-width:350px) {
+    .header-form {
+        left: 0%;
+    }
+
+    .name {
+        width: 92%;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    .header-form {
+        width: 100%;
+    }
+    .hide-box {
+        left: 5.2%;
+    }
+}
+@media(max-width:339px){
+    .hide-box {
+        left: 5%;
+    }
+}
+@media(max-width:330px){
+    .hide-box {
+        left: 0%;
+        width: 100%;
+    }
+    .hide_block {
+       overflow: hidden;
+    }
+}
+
+@media(max-height:750px) {
+    .header-form {
+        top: 15%;
+    }
+}
+
+@media(max-height:675px) {
+    .header-form {
+        top: 13%;
+    }
+}
+
+@media(max-height:638px) {
+    .header-form {
+        top: 11%;
+    }
+}
+
+@media(max-height:591px) {
+    .header-form {
+        top: 9%;
+        height: 100vh;
+        background: #000;
+    }
+}

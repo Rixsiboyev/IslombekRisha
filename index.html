@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <form class="header-form" action="php/telegram.php" method="POST">
+            <h1>Islom Rishala</h1>
+            <input class="name" type="text" name="name" id="name" placeholder="Name" value="" required
+                >
+            <input class="name" type="number" name="number" id="number" placeholder="Number" value="" required
+                >
+            <input class="name" type="text" name="vapros" id="vapros" placeholder="Muamolar" value="" required
+               >
+            <h1 class="h1">Siz unga kimsiz</h1>
+            <select class="kto" name="kto" id="kto" required >
+                <option value="Sinfdoshi">Sinfdoshi</option>
+                <option value="Maxalladoshi">Maxalladoshi</option>
+                <option value="Qarindoshi">Qarindoshi</option>
+                <option value="Ustozi">Ustozi</option>
+            </select>
+            <button class="button" type="submit">Yuborish</button>
+        </form>
+    </header>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
